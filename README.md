@@ -42,7 +42,7 @@ PyStructure is a Python desktop application that uses Google's Gemini 1.5 Flash 
 
 3. **Run the application**
    ```bash
-   python structure_from_image.py
+   python PyStructure.py
    ```
 
 ## 📖 How to Use
