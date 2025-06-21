@@ -6,6 +6,8 @@
 
 > 🤖 **AI-Powered Directory Structure Creator** - Transform directory tree screenshots into actual folder structures using Google's Gemini Vision AI.
 
+![dev-starter Chat Demo](https://raw.githubusercontent.com/LMLK-seal/PyStructure/refs/heads/main/PyStructure.png)
+
 ## 🌟 Overview
 
 PyStructure is a Python desktop application that uses Google's Gemini 1.5 Flash model to analyze images of directory trees and automatically recreate the exact folder and file structure on your local filesystem. Perfect for developers who want to quickly replicate project structures from documentation, tutorials, or screenshots.
