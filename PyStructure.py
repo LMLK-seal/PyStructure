@@ -52,7 +52,7 @@ def parse_text_structure(raw_text: str) -> list[str]:
     paths = []
     level_parents = {}
     
-    first_indented_line = next((line for line in lines if line and not line[0].isspace() and (line.lstrip() != line)), None)
+    first_indented_line = next((line for line in lines if line and len(line) > len(line.lstrip(' │├─└'))), None)
     indent_size = len(first_indented_line) - len(first_indented_line.lstrip(' │├─└')) if first_indented_line else 4
     if indent_size == 0: indent_size = 4
 
